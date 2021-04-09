@@ -1,0 +1,23 @@
+#root{
+    width: 30%;
+    min-height: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #000;
+    padding: 15px 10px 15px 25px;
+}
+span {
+    display: flex;
+}
+input:disabled:hover{
+    width: 100%;
+    background: lightgrey;
+}
+input:disabled{
+    background: white;
+    border: none;
+    color: black;
+}
+ul li{
+    list-style-type: none;
+}
